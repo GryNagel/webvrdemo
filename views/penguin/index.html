@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Penguins</title>
+    <meta name="description" content="Penguins">
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
+</head>
+<body>
+<a-scene environment="preset: starry; grid: none; groundColor: #006994;" sound="src: #sea; autoplay: true; loop: true;">
+    <a-assets>
+        <a-asset-item id="penguin_obj" src="penguin_blue.obj"></a-asset-item>
+        <a-asset-item id="penguin_mtl" src="penguin_blue.mtl"></a-asset-item>
+        <a-asset-item id="penguin_obj2" src="penguin_blue2.obj"></a-asset-item>
+        <a-asset-item id="penguin_mtl2" src="penguin_blue2.mtl"></a-asset-item>
+        <a-asset-item id="penguin_obj3" src="penguin_blue3.obj"></a-asset-item>
+        <a-asset-item id="penguin_mtl3" src="penguin_blue3.mtl"></a-asset-item>
+        <a-asset-item id="lighthouse_obj" src="lighthouse.obj"></a-asset-item>
+        <a-asset-item id="lighthouse_mtl" src="lighthouse.mtl"></a-asset-item>
+        <audio id="sea" src="sea.wav" preload="auto"></audio>
+        <audio id="penguin" src="penguin.wav" preload="auto"></audio>
+    </a-assets>
+
+
+    <a-obj-model src="#penguin_obj3" mtl="#penguin_mtl3"  position="-2 1.8 4" scale="0.2 0.2 0.2" rotation="105 70 0">
+        <a-animation attribute="position" dur="3000" from="-2 1.8 4" to="0 -1.5 4" repeat="indefinite"></a-animation>
+    </a-obj-model> <!-- Sliding -->
+
+    <a-obj-model src="#penguin_obj" mtl="#penguin_mtl"  position="-4 1 6" scale="0.2 0.2 0.2" rotation="10 40 0"></a-obj-model>
+
+    <a-obj-model src="#penguin_obj2" mtl="#penguin_mtl2"  position="-9 1.7 6" scale="0.2 0.2 0.2" rotation="10 85 0"></a-obj-model>
+    <a-obj-model src="#penguin_obj" mtl="#penguin_mtl"  position="-5 1 0" scale="0.2 0.2 0.2" rotation="0 60 0"></a-obj-model>
+    <a-obj-model src="#penguin_obj2" mtl="#penguin_mtl2"  position="-5 1 -4" scale="0.2 0.2 0.2" rotation="0 90 0"></a-obj-model>
+
+    <a-obj-model src="#lighthouse_obj" mtl="#lighthouse_mtl"  position="-11 0 -1" scale="0.3 0.3 0.3" rotation="0 60 0"></a-obj-model> <!--Lighthouse-->
+
+    <a-box color="#ECECEC" width="10" depth="15" height="1" position="-6 0 0" rotation="-5 0 -10"></a-box> <!-- Island -->
+
+</a-scene>
+</body>
+</html>

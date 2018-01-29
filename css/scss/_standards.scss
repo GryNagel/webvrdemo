@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway');
+
+body{
+  font-family: 'Lora', serif;
+  font-size: 19px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+  color: $prussianblue;
+  font-weight: bold;
+}
+
+
+a{
+  text-decoration-skip: ink;
+  color: $prussianblue;
+}

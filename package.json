@@ -1,0 +1,30 @@
+{
+  "name": "webvrdemo",
+  "description": "A-frame WebVR demo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Gry Nagel",
+  "scripts": {
+    "start": "budo --live --verbose --port 3000 --open",
+    "deploy": "ghpages",
+    "ghpages": "ghpages",
+    "sass": "node-sass css/scss/style.scss --output css --source-map-embed --source-map-contents --output-style compressed",
+    "sass:watch": "npm run sass -- --watch"
+  },
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "ghpages": "0.0.3"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-boilerplate",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ],
+  "dependencies": {
+    "aframe-environment-component": "^1.0.0",
+    "node-sass": "^4.7.2"
+  }
+}
