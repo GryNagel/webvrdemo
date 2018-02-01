@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "aframe-environment-component": "^1.0.0",
+    "ecstatic": "^3.1.1",
     "node-sass": "^4.7.2"
   }
 }
