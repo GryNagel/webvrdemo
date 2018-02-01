@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
 </head>
 <body>
-<a-scene environment="preset: starry; grid: none; groundColor: #006994;" sound="src: #sea; autoplay: true; loop: true;">
+<a-scene environment="preset: threetowers; grid: none; groundColor: #006994;" sound="src: #sea; autoplay: true; loop: true;">
     <a-assets>
         <a-asset-item id="penguin_obj" src="penguin_blue.obj"></a-asset-item>
         <a-asset-item id="penguin_mtl" src="penguin_blue.mtl"></a-asset-item>
@@ -36,6 +36,10 @@
     <a-obj-model src="#lighthouse_obj" mtl="#lighthouse_mtl"  position="-11 0 -1" scale="0.3 0.3 0.3" rotation="0 60 0"></a-obj-model> <!--Lighthouse-->
 
     <a-box color="#ECECEC" width="10" depth="15" height="1" position="-6 0 0" rotation="-5 0 -10"></a-box> <!-- Island -->
+
+    <a-entity position="0 0 -5">
+        <a-camera></a-camera>
+    </a-entity>
 
 </a-scene>
 </body>
