@@ -6,9 +6,11 @@
     <meta name="description" content="Penguins">
     <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
+    <script src="https://rawgit.com/mayognaise/aframe-mouse-cursor-component/master/dist/aframe-mouse-cursor-component.min.js"></script>
+    <script src="penguins.js"></script>
 </head>
 <body>
-<a-scene environment="preset: threetowers; grid: none; groundColor: #006994;" sound="src: #sea; autoplay: true; loop: true;">
+<a-scene environment="preset: forest; grid: none;" sound="src: #sea; autoplay: true; loop: true;">
     <a-assets>
         <a-asset-item id="penguin_obj" src="penguin_blue.obj"></a-asset-item>
         <a-asset-item id="penguin_mtl" src="penguin_blue.mtl"></a-asset-item>
@@ -22,24 +24,49 @@
         <audio id="penguin" src="penguin.wav" preload="auto"></audio>
     </a-assets>
 
-
-    <a-obj-model src="#penguin_obj3" mtl="#penguin_mtl3"  position="-2 1.8 4" scale="0.2 0.2 0.2" rotation="105 70 0">
-        <a-animation attribute="position" dur="3000" from="-2 1.8 4" to="0 -1.5 4" repeat="indefinite"></a-animation>
-    </a-obj-model> <!-- Sliding -->
-
-    <a-obj-model src="#penguin_obj" mtl="#penguin_mtl"  position="-4 1 6" scale="0.2 0.2 0.2" rotation="10 40 0"></a-obj-model>
-
-    <a-obj-model src="#penguin_obj2" mtl="#penguin_mtl2"  position="-9 1.7 6" scale="0.2 0.2 0.2" rotation="10 85 0"></a-obj-model>
-    <a-obj-model src="#penguin_obj" mtl="#penguin_mtl"  position="-5 1 0" scale="0.2 0.2 0.2" rotation="0 60 0"></a-obj-model>
-    <a-obj-model src="#penguin_obj2" mtl="#penguin_mtl2"  position="-5 1 -4" scale="0.2 0.2 0.2" rotation="0 90 0"></a-obj-model>
-
-    <a-obj-model src="#lighthouse_obj" mtl="#lighthouse_mtl"  position="-11 0 -1" scale="0.3 0.3 0.3" rotation="0 60 0"></a-obj-model> <!--Lighthouse-->
-
-    <a-box color="#ECECEC" width="10" depth="15" height="1" position="-6 0 0" rotation="-5 0 -10"></a-box> <!-- Island -->
-
-    <a-entity position="0 0 -5">
-        <a-camera></a-camera>
+    <a-entity position="5 5 5" camera look-controls wasd-controls>
+        <a-entity position="0 0 -4"
+                  geometry="primitive: ring; radiusInner: 0.2; radiusOuter: 0.3;"
+                  material="color: cyan; shader: flat"
+                  cursor="maxDistance: 30; fuse: true">
+            <a-animation begin="click" easing="ease-in" attribute="scale"
+                         fill="forwards" from="0.2 0.2 0.2" to="1 1 1" dur="150"></a-animation>
+            <a-animation begin="fusing" easing="ease-in" attribute="scale"
+                         fill="backwards" from="1 1 1" to="0.2 0.2 0.2" dur="1500"></a-animation>
+        </a-entity>
     </a-entity>
+
+    <a-entity position="-2 1.8 4" >
+        <a-obj-model src="#penguin_obj3" mtl="#penguin_mtl3"scale="0.2 0.2 0.2" rotation="105 70 0">
+            <a-animation begin="click" attribute="position" dur="3000" from="0 0 0" to="0 -2 4"
+                         repeat="0"></a-animation>
+        </a-obj-model> <!-- Sliding -->
+    </a-entity>
+
+    <a-entity position="-4 1 6">
+        <a-obj-model src="#penguin_obj" mtl="#penguin_mtl" position="0 0 0" scale="0.2 0.2 0.2" rotation="10 40 0">
+            <a-animation begin="click" attribute="position" dur="1000" from="0 0 0" to="0 1 0" fill="backwards" repeat="0"
+                         ></a-animation>
+        </a-obj-model>
+    </a-entity>
+
+    <a-obj-model src="#penguin_obj2" mtl="#penguin_mtl2" position="-9 1.7 6" scale="0.2 0.2 0.2"
+                 rotation="10 85 0"></a-obj-model>
+
+    <a-obj-model src="#penguin_obj" mtl="#penguin_mtl" position="-5 1 0" scale="0.2 0.2 0.2"
+                 rotation="0 60 0"></a-obj-model>
+
+    <a-obj-model class="clickable" src="#penguin_obj2" mtl="#penguin_mtl2" position="-5 0.25 -4" scale="0.2 0.2 0.2"
+                 rotation="0 90 0" cursor-listener></a-obj-model> <!--Closest arms out-->
+
+    <a-obj-model onClick="sayHello()" src="#lighthouse_obj" mtl="#lighthouse_mtl" position="-11 0 -1" scale="0.3 0.3 0.3"
+                 rotation="0 60 0"></a-obj-model> <!--Lighthouse-->
+
+    <a-box color="#ECECEC" width="10" depth="15" height="1" position="-6 0 0" rotation="-5 0 -10"></a-box>
+    <!-- Island -->
+
+
+    <a-light type="ambient" color="#222" position="0 0 0" distance="20" intensity="2" type="directional"></a-light>
 
 </a-scene>
 </body>
