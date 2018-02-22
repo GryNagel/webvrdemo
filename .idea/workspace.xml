@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba4ff5b3-a8d2-4a9e-8806-34e8ca207af4" name="Default" comment="">
+    <list default="true" id="ba4ff5b3-a8d2-4a9e-8806-34e8ca207af4" name="Default" comment="Animations on cursor, lighting">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/Lighthouse singly.glb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/island.glb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse_baked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/penguin.glb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/sea.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/penguinv2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/island/materials.mtl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/island/model.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.mtl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/penguin/materials.mtl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/penguin/model.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/penguin/index.html" afterPath="$PROJECT_DIR$/views/penguin/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
+              <first_editor relative-caret-position="0">
                 <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
                 <folding />
               </first_editor>
@@ -30,48 +44,48 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="884">
               <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/penguin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="434">
+              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="penguins.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/penguin/penguins.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/penguinsv2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="1041" column="17" lean-forward="true" selection-start-line="1041" selection-start-column="17" selection-end-line="1041" selection-end-column="17" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="penguinv2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/penguinsv2/penguinv2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -82,6 +96,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -89,7 +104,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ecstatic</find>
+      <find>tga</find>
+      <find>camera</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/views/penguinsv2/res/island</dir>
+      <dir>$PROJECT_DIR$/views/penguinsv2/res</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,7 +130,17 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/views/penguin/penguins.js" />
+        <option value="$PROJECT_DIR$/views/penguins v2/res/lighthouse/lighthouse.obj" />
+        <option value="$PROJECT_DIR$/views/penguins v2/res/lighthouse/lighthouse.mtl" />
+        <option value="$PROJECT_DIR$/views/penguins v2/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/penguin/index.html" />
+        <option value="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse singly.mtl" />
+        <option value="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_singly.obj" />
+        <option value="$PROJECT_DIR$/views/penguinsv2/res/seagull/Flying gull Texture 1.mtl" />
+        <option value="$PROJECT_DIR$/views/penguinsv2/res/seagull/seagull.obj" />
+        <option value="$PROJECT_DIR$/views/penguinsv2/penguinv2.js" />
+        <option value="$PROJECT_DIR$/views/penguinsv2/index.html" />
       </list>
     </option>
   </component>
@@ -122,11 +153,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1176" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1857" />
+    <option name="height" value="1212" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -144,7 +175,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,35 +192,61 @@
               <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="island" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="lighthouse" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../patternlab" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/examples/giraffe" />
-      <recent name="$PROJECT_DIR$/examples/medival-house/saloon" />
-      <recent name="$PROJECT_DIR$/examples/medival-house" />
-      <recent name="$PROJECT_DIR$/examples" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/examples/medival-house/RuralStallCollada/images" />
       <recent name="$PROJECT_DIR$/examples/medival-house/house/images" />
       <recent name="$PROJECT_DIR$/examples/medival-house/house" />
       <recent name="$PROJECT_DIR$/examples" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/penguinsv2/res" />
+      <recent name="$PROJECT_DIR$/views/penguins v2/res" />
+      <recent name="$PROJECT_DIR$/examples/giraffe" />
+      <recent name="$PROJECT_DIR$/examples/medival-house/saloon" />
+      <recent name="$PROJECT_DIR$/examples/medival-house" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +357,10 @@
       <workItem from="1516966645973" duration="8755000" />
       <workItem from="1517210265003" duration="1923000" />
       <workItem from="1517395409676" duration="646000" />
-      <workItem from="1517471007856" duration="11774000" />
+      <workItem from="1517471007856" duration="11830000" />
+      <workItem from="1518686111791" duration="2840000" />
+      <workItem from="1519224329180" duration="16662000" />
+      <workItem from="1519305795872" duration="2908000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1517211157749</created>
@@ -323,14 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517471904698</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Animations on cursor, lighting">
+      <created>1517490295569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517490295569</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23098000" />
+    <option name="totallyTimeSpent" value="45564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1176" extended-state="0" />
+    <frame x="64" y="-11" width="1857" height="1212" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -341,7 +408,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38037384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -428,13 +495,77 @@
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Changed scene and camera" />
     <MESSAGE value="Updated ecstatic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ecstatic" />
+    <MESSAGE value="Animations on cursor, lighting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animations on cursor, lighting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguin/penguins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17697">
+          <caret line="1041" column="17" lean-forward="true" selection-start-line="1041" selection-start-column="17" selection-end-line="1041" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -489,13 +620,6 @@
     <entry file="file://$PROJECT_DIR$/examples/medival-house/RuralStallCollada/RuralStall.DAE" />
     <entry file="file://$PROJECT_DIR$/examples/medival-house/house/house.dae" />
     <entry file="file://$PROJECT_DIR$/examples/giraffe/index.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -520,7 +644,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
+          <first_editor relative-caret-position="0">
             <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
             <folding />
           </first_editor>
@@ -530,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="884">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
@@ -540,15 +664,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="1041" column="17" lean-forward="true" selection-start-line="1041" selection-start-column="17" selection-end-line="1041" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="17697">
+          <caret line="1041" column="17" lean-forward="false" selection-start-line="1041" selection-start-column="17" selection-end-line="1041" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -556,14 +678,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_texture.png" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_singly.mtl" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_singly.obj" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/seagull/seagull.mtl" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/seagull/seagull.obj" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/penguin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="434">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/island/materials.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/island/model.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2499">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/penguinv2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
           <folding />
         </state>
       </provider>

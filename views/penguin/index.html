@@ -7,10 +7,12 @@
     <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
     <script src="https://rawgit.com/mayognaise/aframe-mouse-cursor-component/master/dist/aframe-mouse-cursor-component.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
+    <script src="https://github.com/mrdoob/three.js/blob/dev/examples/js/loaders/TGALoader.js"></script>
     <script src="penguins.js"></script>
 </head>
 <body>
-<a-scene environment="preset: forest; grid: none;" sound="src: #sea; autoplay: true; loop: true;">
+<a-scene sound="src: #sea; autoplay: true; loop: true;">
     <a-assets>
         <a-asset-item id="penguin_obj" src="penguin_blue.obj"></a-asset-item>
         <a-asset-item id="penguin_mtl" src="penguin_blue.mtl"></a-asset-item>
@@ -24,6 +26,10 @@
         <audio id="penguin" src="penguin.wav" preload="auto"></audio>
     </a-assets>
 
+    <a-ocean width="50" depth="50" density="40"></a-ocean>
+
+    <a-sky color="#edf7fc"></a-sky>
+
     <a-entity position="5 5 5" camera look-controls wasd-controls>
         <a-entity position="0 0 -4"
                   geometry="primitive: ring; radiusInner: 0.2; radiusOuter: 0.3;"
@@ -36,17 +42,17 @@
         </a-entity>
     </a-entity>
 
+    <!-- Sliding -->
     <a-entity position="-2 1.8 4" >
         <a-obj-model src="#penguin_obj3" mtl="#penguin_mtl3"scale="0.2 0.2 0.2" rotation="105 70 0">
             <a-animation begin="click" attribute="position" dur="3000" from="0 0 0" to="0 -2 4"
                          repeat="0"></a-animation>
-        </a-obj-model> <!-- Sliding -->
+        </a-obj-model>
     </a-entity>
 
     <a-entity position="-4 1 6">
         <a-obj-model src="#penguin_obj" mtl="#penguin_mtl" position="0 0 0" scale="0.2 0.2 0.2" rotation="10 40 0">
-            <a-animation begin="click" attribute="position" dur="1000" from="0 0 0" to="0 1 0" fill="backwards" repeat="0"
-                         ></a-animation>
+            <a-animation begin="click" attribute="position" dur="1000" from="0 0 0" to="0 1 0" fill="backwards" repeat="0"></a-animation>
         </a-obj-model>
     </a-entity>
 
@@ -56,17 +62,16 @@
     <a-obj-model src="#penguin_obj" mtl="#penguin_mtl" position="-5 1 0" scale="0.2 0.2 0.2"
                  rotation="0 60 0"></a-obj-model>
 
+    <!--Closest arms out-->
     <a-obj-model class="clickable" src="#penguin_obj2" mtl="#penguin_mtl2" position="-5 0.25 -4" scale="0.2 0.2 0.2"
-                 rotation="0 90 0" cursor-listener></a-obj-model> <!--Closest arms out-->
+                 rotation="0 90 0" cursor-listener></a-obj-model>
 
-    <a-obj-model onClick="sayHello()" src="#lighthouse_obj" mtl="#lighthouse_mtl" position="-11 0 -1" scale="0.3 0.3 0.3"
-                 rotation="0 60 0"></a-obj-model> <!--Lighthouse-->
+    <!--Lighthouse-->
+    <a-obj-model src="#lighthouse_obj" mtl="#lighthouse_mtl" position="-11 0 -1" scale="0.3 0.3 0.3"
+                 rotation="0 60 0"></a-obj-model>
 
-    <a-box color="#ECECEC" width="10" depth="15" height="1" position="-6 0 0" rotation="-5 0 -10"></a-box>
     <!-- Island -->
-
-
-    <a-light type="ambient" color="#222" position="0 0 0" distance="20" intensity="2" type="directional"></a-light>
+    <a-box color="#ECECEC" width="10" depth="15" height="1" position="-6 0 0" rotation="-5 0 -10"></a-box>
 
 </a-scene>
 </body>

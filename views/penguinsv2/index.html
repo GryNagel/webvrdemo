@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Penguins</title>
+    <meta name="description" content="Penguins">
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
+    <script src="https://dist.3d.io/3dio-js/1.x.x/3dio.min.js"></script>
+    <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+</head>
+<body>
+
+<!--sound="src: #sea; autoplay: true; loop: true;"-->
+<a-scene>
+    <a-entity position="-0.975 0.5 7">
+        <a-camera>
+            <a-entity position="0.0 -0.4 -0.4" rotation="0 90 1a0" scale="0.3 0.3 0.3a" gblock="https://poly.google.com/view/8d-cgFdVEVN">
+            </a-entity>
+
+        </a-camera>
+    </a-entity>
+
+
+    <a-assets>
+        <a-asset-item id="island-mtl" src="res/island/materials.mtl"></a-asset-item>
+        <a-asset-item id="island-obj" src="res/island/model.obj"></a-asset-item>
+
+        <a-asset-item id="lighthouse-mtl" src="res/lighthouse/lighthouse.mtl"></a-asset-item>
+        <a-asset-item id="lighthouse-obj" src="res/lighthouse/lighthouse.obj"></a-asset-item>
+
+        <a-asset-item id="penguin-mtl" src="res/penguin/materials.mtl"></a-asset-item>
+        <a-asset-item id="penguin-obj" src="res/penguin/model.obj"></a-asset-item>
+    </a-assets>
+
+    <a-gradient-sky material="shader: gradient; topColor: 183 228 255; bottomColor: 239	249	255;"></a-gradient-sky>
+
+    <a-ocean width="50" depth="50" density="40"></a-ocean>
+
+    <!--Penguin by 14islands Lab https://poly.google.com/user/1aLhJHbABkb-->
+    <a-entity position="-0.403 0.994 1.535" scale="0.8 0.91 0.8" obj-model="obj: #penguin-obj; mtl: #penguin-mtl"
+              rotation="0 90 -0.8"></a-entity>
+
+    <a-entity position="-2.073 0.994 0.966" scale="0.8 0.91 0.8" obj-model="obj: #penguin-obj; mtl: #penguin-mtl"
+              rotation="0 105 -0.8"></a-entity>
+
+    <a-entity position="2.72 0.482 4.04" scale="0.8 0.91 0.8" obj-model="mtl:res/penguin/materials.mtl;obj:res/penguin/model.obj" rotation="0 35 -0.8"></a-entity>
+
+    <!--Seagull by Poly by Google-->
+    <a-entity>
+        <a-entity scale="0.02 0.02 0.02" position="6 10 0" rotation="-30 -230 -20" gblock="https://poly.google.com/view/eMNhHDZakYp">
+        </a-entity>
+        <a-animation attribute="rotation" to="0 360 0" dur="8000" easing="linear" repeat="indefinite">
+        </a-animation>
+    </a-entity>
+
+    <!--Sitting Seagull by Poly by Google-->
+    <a-entity>
+        <a-entity scale="0.02 0.02 0.02" position="6 10 0" rotation="-30 -230 -20" gblock="https://poly.google.com/view/7sQHkW0ylJy">
+        </a-entity>
+        <a-animation attribute="rotation" to="0 360 0" dur="8000" easing="linear" repeat="indefinite">
+        </a-animation>
+    </a-entity>
+
+    <!--Sitting Seagull lighthouse by Poly by Google-->
+    <a-entity>
+        <a-entity scale="0.01 0.01 0.01" position="2.429 6.801 1.653" gblock="https://poly.google.com/view/7sQHkW0ylJy" rotation="0 -90 0">
+        </a-entity>
+    </a-entity>
+
+    <!--Island by Oskar Jakubis - https://poly.google.com/user/4sp-I4a7P3f-->
+    <a-entity position="-0.406 0.764 0.167" scale="5 5 5" obj-model="obj: #island-obj; mtl: #island-mtl"></a-entity>
+
+    <!--Lighthouse by Poly by Google-->
+    <a-entity position="2.433 3.469 1.866" scale="2 2 2" obj-model="obj: #lighthouse-obj; mtl: #lighthouse-mtl" rotation="0 -90 0"></a-entity>
+
+    <!--Air balloon by Poly by Google-->
+    <a-entity position="20 15 0" >
+        <a-entity id="balloon" scale="0.02 0.02 0.02" rotation="-90 0 0" gblock="https://poly.google.com/view/8azSIUgP0ow">
+        </a-entity>
+    </a-entity>
+
+
+</a-scene>
+</body>
+<footer>
+    <script src="penguinv2.js"></script>
+</footer>
