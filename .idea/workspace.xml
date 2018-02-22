@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba4ff5b3-a8d2-4a9e-8806-34e8ca207af4" name="Default" comment="Animations on cursor, lighting">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/Lighthouse singly.glb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/island.glb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse_baked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/penguin.glb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/sea.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/penguinv2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/island/materials.mtl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/island/model.obj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.mtl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.obj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/penguin/materials.mtl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/penguinsv2/res/penguin/model.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/room/resources/brick.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/room/resources/floor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/room/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/room/resources/pooltable/materials.mtl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/room/resources/pooltable/model.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/penguin/index.html" afterPath="$PROJECT_DIR$/views/penguin/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <first_editor relative-caret-position="238">
+                <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -54,38 +45,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/penguin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="731">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <marker date="1519320621600" expanded="true" signature="3836:3848" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/penguinsv2/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="penguinv2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/penguinsv2/penguinv2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="63" />
+            <state relative-caret-position="425">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -126,14 +99,12 @@
         <option value="$PROJECT_DIR$/examples/index.html" />
         <option value="$PROJECT_DIR$/examples/medival-house/index.html" />
         <option value="$PROJECT_DIR$/examples/giraffe/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/views/penguin/penguins.js" />
         <option value="$PROJECT_DIR$/views/penguins v2/res/lighthouse/lighthouse.obj" />
         <option value="$PROJECT_DIR$/views/penguins v2/res/lighthouse/lighthouse.mtl" />
         <option value="$PROJECT_DIR$/views/penguins v2/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/penguin/index.html" />
         <option value="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse singly.mtl" />
         <option value="$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_singly.obj" />
@@ -141,6 +112,8 @@
         <option value="$PROJECT_DIR$/views/penguinsv2/res/seagull/seagull.obj" />
         <option value="$PROJECT_DIR$/views/penguinsv2/penguinv2.js" />
         <option value="$PROJECT_DIR$/views/penguinsv2/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -149,9 +122,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="64" />
@@ -175,7 +145,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,47 +158,18 @@
               <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webvrdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webvrdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="penguinsv2" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="lighthouse" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../patternlab" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -361,6 +302,7 @@
       <workItem from="1518686111791" duration="2840000" />
       <workItem from="1519224329180" duration="16662000" />
       <workItem from="1519305795872" duration="2908000" />
+      <workItem from="1519320658027" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1517211157749</created>
@@ -394,10 +336,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45564000" />
+    <option name="totallyTimeSpent" value="45599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1212" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -408,10 +351,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32463545" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -429,64 +372,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/main.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/main.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/app.module.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/app.routing.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/app.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/app.routing.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/app.component.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/app.module.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/sne/sne.component.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/sne/innholdsTypeResolver.service.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/sne/innholdsTypeResolver.service.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/sne/sne.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/artikler.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/sne.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/artikkel.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/relatert-innhold.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/fil.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/kategori.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/sne.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/artikler.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/person.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/person.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/fil.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/bilde.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/artikkel.model.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/relatert-innhold.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/kategori.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/model/bilde.model.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/forside/forside.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/forside/forside.component.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/artikkel/artikkel.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/artikkel/artikkel.component.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/kategori/kategori.component.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/kategori/kategori.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/kategori.service.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/kategori.service.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/artikkel.service.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/fil.service.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/bilde.service.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/artikkel.service.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/fil.service.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/services/bilde.service.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/directives/auto-grow.directive.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/directives/auto-grow.directive.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/brodtekst/brodtekst.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/brodtekst/brodtekst.component.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bildevelger/bildevelger.component.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bildevelger/bildevelger.component.spec.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bildevelger/bildevelger.component.spec.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bildevelger/bildevelger.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bilde-metadata/bilde-metadata.component.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bilde-metadata/bilde-metadata.component.spec.js" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bilde-metadata/bilde-metadata.component.spec.js.map" />
-        <option value="$PROJECT_DIR$/../portal/portal-appserver/publisering/src/main/resources/app/common/bilde-metadata/bilde-metadata.component.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -514,7 +399,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-          <folding />
+          <folding>
+            <marker date="1519320621600" expanded="true" signature="3836:3848" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -537,13 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguin/penguins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguin/penguins.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17697">
@@ -562,7 +443,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
+          <folding>
+            <marker date="1519320621600" expanded="true" signature="3836:3848" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,8 +527,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -674,78 +557,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguin/penguins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/penguin/penguins.js" />
     <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_texture.png" />
     <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_singly.mtl" />
     <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/Lighthouse_singly.obj" />
     <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/seagull/seagull.mtl" />
     <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/seagull/seagull.obj" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/penguin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="731">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <marker date="1519320621600" expanded="true" signature="3836:3848" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/island/materials.mtl">
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/island/materials.mtl" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/island/model.obj" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/penguinv2.js" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.obj" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.mtl" />
+    <entry file="file://$PROJECT_DIR$/views/penguinsv2/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/island/model.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2499">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguinsv2/penguinv2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguinsv2/res/lighthouse/lighthouse.mtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/penguinsv2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>

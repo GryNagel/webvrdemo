@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Pooltable by: Quick Sand, https://poly.google.com/view/1DEXg34OJ83  -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Room</title>
+    <meta name="description" content="Penguins">
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.js"></script>
+</head>
+<body>
+<a-scene>
+    <a-assets>
+        <a-asset-item id="pooltable_obj" src="resources/pooltable/model.obj"></a-asset-item>
+        <a-asset-item id="pooltable_mtl" src="resources/pooltable/materials.mtl"></a-asset-item>
+    </a-assets>
+
+
+
+    <a-entity id="floor"
+              rotation="-90 0 0"
+              geometry="primitive: plane; width: 10; height: 14"
+              material="src: url(resources/floor.jpg); repeat: 5 5">
+    </a-entity>
+
+    <a-box material="src: url(resources/brick.jpg); repeat: 5 2"
+            color="#CCC"
+           depth="14"
+           height="4"
+           width="0.030"
+            position="-5 2 0"
+    ></a-box>
+
+    <a-box color="#333333"
+           depth="14"
+           height="4"
+           width="0.030"
+           position="5 2 0"
+    ></a-box>
+
+    <a-box color="#333333"
+           depth="0.030"
+           height="4"
+           width="10"
+           position="0 2 7"
+    ></a-box>
+
+    <a-box color="#333333"
+           depth="0.030"
+           height="4"
+           width="10"
+           position="0 2 -7"
+    ></a-box>
+
+    <a-obj-model src="#pooltable_obj" mtl="#pooltable_mtl" position="0 0.3 0" scale="0.4 0.4 0.4"
+                 rotation="0 0 0"></a-obj-model>
+
+
+</a-scene>
+</body>
+</html>
