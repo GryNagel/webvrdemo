@@ -11,13 +11,11 @@
 </head>
 <body>
 
-<!--sound="src: #sea; autoplay: true; loop: true;"-->
 <a-scene>
     <a-entity position="-0.975 0.5 7">
-        <a-camera>
-            <a-entity position="0.0 -0.4 -0.4" rotation="0 90 1a0" scale="0.3 0.3 0.3a" gblock="https://poly.google.com/view/8d-cgFdVEVN">
+        <a-camera position="0 0 0">
+            <a-entity position="0.0 -0.4 -0.4" rotation="0 90 10" scale="0.3 0.3 0.3" gblock="https://poly.google.com/view/8d-cgFdVEVN">
             </a-entity>
-
         </a-camera>
     </a-entity>
 
@@ -54,14 +52,6 @@
         </a-animation>
     </a-entity>
 
-    <!--Sitting Seagull by Poly by Google-->
-    <a-entity>
-        <a-entity scale="0.02 0.02 0.02" position="6 10 0" rotation="-30 -230 -20" gblock="https://poly.google.com/view/7sQHkW0ylJy">
-        </a-entity>
-        <a-animation attribute="rotation" to="0 360 0" dur="8000" easing="linear" repeat="indefinite">
-        </a-animation>
-    </a-entity>
-
     <!--Sitting Seagull lighthouse by Poly by Google-->
     <a-entity>
         <a-entity scale="0.01 0.01 0.01" position="2.429 6.801 1.653" gblock="https://poly.google.com/view/7sQHkW0ylJy" rotation="0 -90 0">
@@ -79,7 +69,6 @@
         <a-entity id="balloon" scale="0.02 0.02 0.02" rotation="-90 0 0" gblock="https://poly.google.com/view/8azSIUgP0ow">
         </a-entity>
     </a-entity>
-
 
 </a-scene>
 </body>

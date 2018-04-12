@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Pooltable by: Quick Sand, https://poly.google.com/view/1DEXg34OJ83  -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <meta name="description" content="Penguins">
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.js"></script>
+    <script src="https://dist.3d.io/3dio-js/1.x.x/3dio.min.js"></script>
+    <script src="https://rawgit.com/takahirox/aframe-rain/master/build/aframe-rain.min.js"></script>
+    <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+</head>
+<body>
+<a-scene id="scene">
+    <a-assets>
+        <img id="cloudy" src="resources/cloud.jpg">
+        <a-asset-item id="sign-mtl" src="resources/sign/materials.mtl"></a-asset-item>
+        <a-asset-item id="sign-obj" src="resources/sign/model.obj"></a-asset-item>
+    </a-assets>
+
+    <a-plane id="plane" rotation="-90 0 0" color="#005C09" width="30" height="30"></a-plane>
+
+
+    <a-sky hidden id="sky" color="#000000"></a-sky>
+
+    <a-entity position="0 1.9 -4" >
+        <a-entity position="0 0.5 0.1" text="align:center;value: Bergen; width:5; baseline: center;"></a-entity>
+        <a-entity id="sign" scale="2 2 2" rotation="0 180 0" obj-model="obj: #sign-obj; mtl: #sign-mtl">
+
+        </a-entity>
+        <!--Sign made by Thomas Balouet: https://poly.google.com/view/do49XXyyqML -->
+        <!--Grass made by Danny Bittman: https://poly.google.com/view/dz_TvM39dC7 -->
+
+    </a-entity>
+
+</a-scene>
+<footer>
+    <script src="weather.js"></script>
+</footer>
+</body>
+
+</html>
