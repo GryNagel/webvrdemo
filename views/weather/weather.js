@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=Bergen,NO&units=metric&APPID=c220112adc76bdcd2ba2e3c3a4039235", false);
+xhr.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=Bergen,NO&units=metric&APPID=c220112adc76bdcd2ba2e3c3a4039235", false);
 xhr.send();
 
 var obj = JSON.parse(xhr.response);
